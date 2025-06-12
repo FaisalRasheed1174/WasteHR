@@ -66,7 +66,7 @@ function DateSelector({label, onSelect, minDate, maxDate}: DateSelectorProps) {
     }, [minDate, maxDate, selectedDate]);
 
     return (
-        <div className="mb-6 p-6 bg-gradient-to-r from-orange-200 via-white to-green-200 rounded-xl shadow-xl border border-green-500">
+        <div className="p-8 rounded-xl shadow-xl border border-green-500">
             <label className="block text-orange-600 text-xl font-bold mb-4">{label}</label>
 
             {/* Date Format Selector */}

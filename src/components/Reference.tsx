@@ -16,7 +16,7 @@ const Reference = () => {
     const [selected, setSelected] = useState(null);
 
     return (
-        <div className="bg-gradient-to-r from-orange-200 via-white to-green-200 min-h-screen p-10 text-white">
+        <div className=" p-10 text-white">
             <h2 className="text-3xl font-bold mb-6 text-center text-orange-400">Choose Your Skip Size</h2>
             <p className="text-center text-green-400 mb-10">Select the skip size that best suits your needs</p>
 
@@ -31,7 +31,7 @@ const Reference = () => {
                         <div className="text-center">
                             <div className="text-2xl font-bold mb-2 text-orange-300">{skip.size}</div>
                             <div className="text-green-300 mb-4">{skip.duration}</div>
-                            <div className="text-2xl text-white font-semibold">£{skip.price}</div>
+                            <div className="text-2xl text-red-900 font-semibold">£{skip.price}</div>
                             {!skip.road && (
                                 <div className="mt-3 text-sm text-red-400 font-medium">🚫 Not Allowed On The Road</div>
                             )}

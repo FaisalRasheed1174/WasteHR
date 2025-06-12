@@ -24,7 +24,7 @@ export default function Payment() {
             initial={{opacity: 0, x: -50}}
             animate={{opacity: 1, x: 0}}
             exit={{opacity: 0, x: 50}}
-            className="bg-gradient-to-r from-orange-200 via-white to-green-200 p-6 rounded-lg shadow-md max-w-lg mx-auto space-y-6"
+            className=" p-8 rounded-lg shadow-md max-w-lg mx-auto space-y-6"
         >
             <h2 className="text-2xl font-bold text-green-400">Payment Details</h2>
 

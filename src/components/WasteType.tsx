@@ -45,7 +45,7 @@ export default function WasteTypeStep() {
             initial={{opacity: 0, x: -50}}
             animate={{opacity: 1, x: 0}}
             exit={{opacity: 0, x: 50}}
-            className="space-y-6 bg-green-100 p-6 rounded-lg shadow-md"
+            className="space-y-6  p-6 rounded-lg shadow-md"
         >
             <h2 className="text-2xl font-bold text-green-800">Select Waste Type</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
